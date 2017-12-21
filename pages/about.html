@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+  <meta charset="utf-8">
+  <style media="screen">
+
+.wowee {
+padding: 40px;
+font-size: 75px;
+font-family: 'Monoton', cursive;
+text-align: center;
+text-transform: uppercase;
+text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
+color: red;
+background-color: #111111;
+}
+.wowee p { margin:0; }
+#error:hover { text-shadow: 0 0 200px #ffffff,0 0 80px #008000,0 0 6px #0000ff; }
+#code:hover { text-shadow: 0 0 100px red,0 0 40px FireBrick,0 0 8px DarkRed; }
+#error {
+color: #fff;
+text-shadow: 0 0 80px #ffffff,0 0 30px #008000,0 0 6px #0000ff;
+}
+#error span {
+animation: upper 11s linear infinite;
+}
+#code span:nth-of-type(2) {
+animation: lower 10s linear infinite;
+}
+#code span:nth-of-type(1) {
+text-shadow: none;
+opacity:.4;
+}
+@keyframes upper {
+0%,19.999%,22%,62.999%,64%, 64.999%,70%,100% {
+  opacity:.99; text-shadow: 0 0 80px #ffffff,0 0 30px #008000,0 0 6px #0000ff;
+}
+20%,21.999%,63%,63.999%,65%,69.999% {
+  opacity:0.4; text-shadow: none;
+}
+}
+@keyframes lower {
+0%,12%,18.999%,23%,31.999%,37%,44.999%,46%,49.999%,51%,58.999%,61%,68.999%,71%,85.999%,96%,100% {
+  opacity:0.99; text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
+}
+19%,22.99%,32%,36.999%,45%,45.999%,50%,50.99%,59%,60.999%,69%,70.999%,86%,95.999% {
+  opacity:0.4; text-shadow: none;
+}
+}
+</style>
+
+  <title>readyPlayerTom</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+
+      <a class="navbar-brand" href="#">
+        <img src="../assets/rebel_logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        readyPlayerTom
+      </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="features.html">Features</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+
+
+
+<h1>About</h1>
+
+
+<div class="wowee">
+  <p id="error">E<span>r</span>ror</p>
+  <p id="code">4<span>0</span><span>4</span></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
